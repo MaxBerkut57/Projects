@@ -15,11 +15,13 @@ def twoSum(nums: list, target: int):
 # Вариант claude
 def two_sum(nums: list, target: int):
     seen = {}
-    for i, num in enumerate(nums):
+    for i, num in enumerate(nums): 
         if target - num in seen:
             return [seen[target - num], i]
         seen[num] = i
 
 
-print(twoSum(nums, target))
-print(two_sum(nums, target))
+if __name__ == '__main__':
+    print(twoSum(nums, target))
+    print(two_sum(nums, target))
+
