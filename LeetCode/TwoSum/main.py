@@ -21,5 +21,5 @@ def two_sum(nums: list, target: int):
         seen[num] = i
 
 
-twoSum(nums, target)
+print(twoSum(nums, target))
 print(two_sum(nums, target))
