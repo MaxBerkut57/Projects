@@ -12,5 +12,6 @@ class Solution:
         return left
 
 
-S = Solution()
-print(S.searchInsert([1, 3, 5, 6], 7))
+if __name__ == "__main__":
+    S = Solution()
+    print(S.searchInsert([1, 3, 5, 6], 7))
